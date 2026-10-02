@@ -1,0 +1,5 @@
+data/
+runs/*/seed*/dense_p1.pt
+__pycache__/
+.pytest_cache/
+push_to_github.sh

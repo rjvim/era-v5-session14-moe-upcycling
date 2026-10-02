@@ -1,0 +1,8 @@
+{"model": {"vocab": 4096, "d": 384, "n_layer": 8, "n_head": 6, "n_kv": 2, "seq": 256, "ffn": 1536,
+           "shared": 768, "n_exp": 8, "exp_w": 384, "top_k": 2, "route_scale": 1.0},
+ "data":  {"source": "hf", "n_train_stories": 400000, "n_val_stories": 5000, "tok_train_stories": 100000},
+ "train": {"batch": 64, "lr": 0.0015, "warmup": 200, "p1": 2000, "p2": 2000, "decay_frac": 0.2, "wd": 0.1,
+           "eval_every": 100, "eval_batches": 20, "gamma": 0.01, "bias_every": 8, "noise_T0": 0.05,
+           "noise_steps": 400, "r": 0.5, "bf16": true},
+ "seeds": [0, 1, 2],
+ "arms": ["dense_continue", "moe_drop", "clone_hard", "clone_bias", "clone_noise", "clone_both"]}

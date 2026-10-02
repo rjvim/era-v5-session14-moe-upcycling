@@ -1,0 +1,240 @@
+
+
+
+[seed0] dense_p1 step 0 loss 7.6513 val 7.6447 349 tok/s
+[seed0] dense_p1 step 99 loss 5.3221 val 5.4098 4091 tok/s
+[seed0] dense_p1 step 199 loss 4.1559 val 4.2949 4170 tok/s
+[seed0] dense_p1 step 299 loss 3.9119 val 3.8444 4217 tok/s
+[seed0] dense_p1 step 399 loss 3.5638 val 3.54 4218 tok/s
+[seed0] dense_p1 step 499 loss 3.2382 val 3.3251 4238 tok/s
+[seed0] dense_p1 step 599 loss 3.0961 val 3.1695 4269 tok/s
+[seed0] dense_p1 step 699 loss 2.9101 val 3.0529 4265 tok/s
+[seed0] dense_p1 step 799 loss 2.9993 val 2.9649 4272 tok/s
+[seed0] dense_p1 step 899 loss 2.9242 val 2.8995 4279 tok/s
+[seed0] dense_p1 step 999 loss 2.7659 val 2.8391 4284 tok/s
+[seed0] dense_p1 step 1099 loss 2.6255 val 2.7931 4280 tok/s
+[seed0] dense_p1 step 1199 loss 2.5606 val 2.757 4282 tok/s
+[seed0] dense_p1 step 1299 loss 2.6136 val 2.7265 4281 tok/s
+[seed0] dense_p1 step 1399 loss 2.65 val 2.6987 4281 tok/s
+[seed0] dense_p1 step 1499 loss 2.4735 val 2.6792 4279 tok/s
+[seed0] fidelity {'partition_all_experts_on': 2.6792, 'dense': 2.6792, 'drop_r_w2zero': 2.9118, 'drop_r_w2normal': 2.9212, 'drop_r0_subset_copy': 2.7517, 'clone': 2.8429}
+[seed0] dense_continue {'val_before': 2.6792008340358735}
+[seed0] dense_continue step 1500 loss 2.7201 val 2.6749 393 tok/s
+[seed0] dense_continue step 1599 loss 2.5851 val 2.6431 3831 tok/s
+[seed0] dense_continue step 1699 loss 2.4724 val 2.6281 4079 tok/s
+[seed0] dense_continue step 1799 loss 2.4607 val 2.6008 4172 tok/s
+[seed0] dense_continue step 1899 loss 2.5417 val 2.5934 4230 tok/s
+[seed0] dense_continue step 1999 loss 2.4494 val 2.577 4277 tok/s
+[seed0] dense_continue {'val_before': 2.6792008340358735}
+[seed0] dense_continue step 1500 loss 2.7201 val 2.6749 354 tok/s
+[seed0] dense_continue step 1599 loss 2.5851 val 2.6431 4840 tok/s
+[seed0] dense_continue step 1699 loss 2.4724 val 2.6281 5243 tok/s
+[seed0] dense_continue step 1799 loss 2.4607 val 2.6008 5390 tok/s
+[seed0] dense_continue step 1899 loss 2.5417 val 2.5934 5389 tok/s
+[seed0] dense_continue step 1999 loss 2.4494 val 2.577 5356 tok/s
+[seed0] dense_continue step 2099 loss 2.3971 val 2.5552 5380 tok/s
+[seed0] dense_continue step 2199 loss 2.4453 val 2.5382 5401 tok/s
+[seed0] dense_continue step 2299 loss 2.4252 val 2.5311 5423 tok/s
+[seed0] dense_continue step 2399 loss 2.5344 val 2.5179 5462 tok/s
+[seed0] dense_continue step 2499 loss 2.302 val 2.4883 5490 tok/s
+[seed0] dense_continue step 2599 loss 2.3603 val 2.447 5510 tok/s
+[seed0] dense_continue step 2699 loss 2.3715 val 2.4081 5527 tok/s
+[seed0] dense_continue step 2799 loss 2.2335 val 2.3702 5543 tok/s
+[seed0] dense_continue step 2899 loss 2.2374 val 2.3376 5557 tok/s
+[seed0] dense_continue step 2999 loss 2.3233 val 2.3184 5569 tok/s
+== done seed0 dense_continue  elapsed 18.8 min
+[seed0] moe_drop {'val_before': 2.6792008340358735, 'adam_states_transferred': 22, 'val_after_convert': 2.9070625960826875}
+[seed0] moe_drop step 1500 loss 2.9474 val 2.8685 393 tok/s
+[seed0] moe_drop step 1599 loss 2.638 val 2.6971 4252 tok/s
+[seed0] moe_drop step 1699 loss 2.5093 val 2.6709 4494 tok/s
+[seed0] moe_drop step 1799 loss 2.4967 val 2.6323 4617 tok/s
+[seed0] moe_drop step 1899 loss 2.5727 val 2.6152 4684 tok/s
+[seed0] moe_drop step 1999 loss 2.4674 val 2.595 4701 tok/s
+[seed0] moe_drop step 2099 loss 2.395 val 2.5715 4726 tok/s
+[seed0] moe_drop step 2199 loss 2.4506 val 2.5448 4753 tok/s
+[seed0] moe_drop step 2299 loss 2.4285 val 2.5405 4758 tok/s
+== done seed0 dense_continue  elapsed 0.0 min
+[seed0] moe_drop step 2399 loss 2.5234 val 2.522 4693 tok/s
+[seed0] moe_drop {'val_before': 2.6792008340358735, 'adam_states_transferred': 22, 'val_after_convert': 2.9070625960826875}
+[seed0] moe_drop step 1500 loss 2.9474 val 2.8685 150 tok/s
+[seed0] moe_drop step 2499 loss 2.3032 val 2.4919 4202 tok/s
+[seed0] moe_drop step 1599 loss 2.638 val 2.6971 1908 tok/s
+[seed0] moe_drop step 2599 loss 2.3592 val 2.4449 3894 tok/s
+[seed0] moe_drop step 1699 loss 2.5093 val 2.6709 2065 tok/s
+[seed0] moe_drop step 2699 loss 2.3474 val 2.4023 3668 tok/s
+[seed0] moe_drop step 1799 loss 2.4967 val 2.6323 2119 tok/s
+[seed0] moe_drop step 2799 loss 2.2259 val 2.3658 3499 tok/s
+[seed0] moe_drop step 1899 loss 2.5727 val 2.6152 2144 tok/s
+[seed0] moe_drop step 2899 loss 2.2218 val 2.331 3472 tok/s
+[seed0] moe_drop step 2999 loss 2.3141 val 2.3124 3534 tok/s
+== done seed0 moe_drop  elapsed 48.1 min
+[seed0] clone_hard {'val_before': 2.6792008340358735, 'adam_states_transferred': 22, 'val_after_convert': 2.8428627133369444}
+[seed0] clone_hard step 1500 loss 2.892 val 2.7974 388 tok/s
+[seed0] clone_hard step 1599 loss 2.6109 val 2.6703 4290 tok/s
+[seed0] clone_hard step 1699 loss 2.4893 val 2.645 4528 tok/s
+[seed0] clone_hard step 1799 loss 2.4854 val 2.6192 4665 tok/s
+[seed0] clone_hard step 1899 loss 2.5489 val 2.6077 4709 tok/s
+[seed0] clone_hard step 1999 loss 2.4609 val 2.5875 4744 tok/s
+[seed0] clone_hard step 2099 loss 2.4041 val 2.5646 4747 tok/s
+== done seed0 dense_continue  elapsed 0.0 min
+== done seed0 moe_drop  elapsed 0.0 min
+[seed0] clone_hard {'val_before': 2.6792008340358735, 'adam_states_transferred': 22, 'val_after_convert': 2.8428627133369444}
+[seed0] clone_hard step 1500 loss 2.892 val 2.7974 333 tok/s
+[seed0] clone_hard step 1599 loss 2.6109 val 2.6703 4275 tok/s
+[seed0] clone_hard step 1699 loss 2.4893 val 2.645 4589 tok/s
+[seed0] clone_hard step 1799 loss 2.4854 val 2.6192 4708 tok/s
+[seed0] clone_hard step 1899 loss 2.5489 val 2.6077 4757 tok/s
+[seed0] clone_hard step 1999 loss 2.4609 val 2.5875 4796 tok/s
+[seed0] clone_hard step 2099 loss 2.4041 val 2.5646 4831 tok/s
+[seed0] clone_hard step 2199 loss 2.4639 val 2.5448 4847 tok/s
+[seed0] clone_hard step 2299 loss 2.4332 val 2.5373 4870 tok/s
+[seed0] clone_hard step 2399 loss 2.5418 val 2.5244 4883 tok/s
+[seed0] clone_hard step 2499 loss 2.3132 val 2.4912 4901 tok/s
+[seed0] clone_hard step 2599 loss 2.3646 val 2.4479 4909 tok/s
+[seed0] clone_hard step 2699 loss 2.3649 val 2.4121 4921 tok/s
+[seed0] clone_hard step 2799 loss 2.2353 val 2.3731 4928 tok/s
+[seed0] clone_hard step 2899 loss 2.2451 val 2.3414 4935 tok/s
+[seed0] clone_hard step 2999 loss 2.3256 val 2.3221 4940 tok/s
+== done seed0 clone_hard  elapsed 21.1 min
+[seed0] clone_bias {'val_before': 2.6792008340358735, 'adam_states_transferred': 22, 'val_after_convert': 2.8428627133369444}
+[seed0] clone_bias step 1500 loss 2.892 val 2.7974 414 tok/s
+[seed0] clone_bias step 1599 loss 2.6138 val 2.6726 4509 tok/s
+[seed0] clone_bias step 1699 loss 2.4899 val 2.647 4723 tok/s
+== done seed0 dense_continue  elapsed 0.0 min
+== done seed0 moe_drop  elapsed 0.0 min
+== done seed0 clone_hard  elapsed 0.0 min
+[seed0] clone_bias {'val_before': 2.6792008340358735, 'adam_states_transferred': 22, 'val_after_convert': 2.8428627133369444}
+[seed0] clone_bias step 1500 loss 2.892 val 2.7974 338 tok/s
+[seed0] clone_bias step 1599 loss 2.6138 val 2.6726 4288 tok/s
+[seed0] clone_bias step 1699 loss 2.4899 val 2.647 4623 tok/s
+[seed0] clone_bias step 1799 loss 2.486 val 2.6215 4701 tok/s
+[seed0] clone_bias step 1899 loss 2.5485 val 2.6022 4736 tok/s
+[seed0] clone_bias step 1999 loss 2.4639 val 2.5815 4752 tok/s
+[seed0] clone_bias step 2099 loss 2.3836 val 2.5549 4762 tok/s
+[seed0] clone_bias step 2199 loss 2.4561 val 2.533 4777 tok/s
+[seed0] clone_bias step 2299 loss 2.4096 val 2.5276 4799 tok/s
+[seed0] clone_bias step 2399 loss 2.5223 val 2.5128 4813 tok/s
+[seed0] clone_bias step 2499 loss 2.2931 val 2.4818 4830 tok/s
+[seed0] clone_bias step 2599 loss 2.3526 val 2.4344 4840 tok/s
+[seed0] clone_bias step 2699 loss 2.3551 val 2.3979 4853 tok/s
+[seed0] clone_bias step 2799 loss 2.2097 val 2.3581 4855 tok/s
+[seed0] clone_bias step 2899 loss 2.2226 val 2.3248 4848 tok/s
+[seed0] clone_bias step 2999 loss 2.3088 val 2.3062 4847 tok/s
+== done seed0 clone_bias  elapsed 21.5 min
+[seed0] clone_noise {'val_before': 2.6792008340358735, 'adam_states_transferred': 22, 'val_after_convert': 2.8428627133369444}
+[seed0] clone_noise step 1500 loss 2.892 val 2.7966 401 tok/s
+[seed0] clone_noise step 1599 loss 2.6091 val 2.6745 4293 tok/s
+== done seed0 dense_continue  elapsed 0.0 min
+== done seed0 moe_drop  elapsed 0.0 min
+== done seed0 clone_hard  elapsed 0.0 min
+== done seed0 clone_bias  elapsed 0.0 min
+[seed0] clone_noise {'val_before': 2.6792008340358735, 'adam_states_transferred': 22, 'val_after_convert': 2.8428627133369444}
+[seed0] clone_noise step 1500 loss 2.892 val 2.7966 295 tok/s
+[seed0] clone_noise step 1599 loss 2.6091 val 2.6745 4005 tok/s
+[seed0] clone_noise step 1699 loss 2.4937 val 2.65 4330 tok/s
+[seed0] clone_noise step 1799 loss 2.4869 val 2.6209 4413 tok/s
+[seed0] clone_noise step 1899 loss 2.5522 val 2.6081 4490 tok/s
+[seed0] clone_noise step 1999 loss 2.4622 val 2.5878 4558 tok/s
+[seed0] clone_noise step 2099 loss 2.41 val 2.5611 4604 tok/s
+[seed0] clone_noise step 2199 loss 2.4535 val 2.5438 4648 tok/s
+[seed0] clone_noise step 2299 loss 2.4331 val 2.5356 4681 tok/s
+[seed0] clone_noise step 2399 loss 2.5374 val 2.5207 4705 tok/s
+[seed0] clone_noise step 2499 loss 2.3148 val 2.4907 4728 tok/s
+[seed0] clone_noise step 2599 loss 2.3614 val 2.4455 4730 tok/s
+[seed0] clone_noise step 2699 loss 2.3654 val 2.4117 4734 tok/s
+[seed0] clone_noise step 2799 loss 2.2328 val 2.3735 4741 tok/s
+[seed0] clone_noise step 2899 loss 2.2337 val 2.3406 4746 tok/s
+[seed0] clone_noise step 2999 loss 2.3249 val 2.3216 4745 tok/s
+== done seed0 clone_noise  elapsed 22.0 min
+[seed0] clone_both {'val_before': 2.6792008340358735, 'adam_states_transferred': 22, 'val_after_convert': 2.8428627133369444}
+[seed0] clone_both step 1500 loss 2.892 val 2.7966 420 tok/s
+[seed0] clone_both step 1599 loss 2.6181 val 2.6773 4318 tok/s
+[seed0] clone_both step 1699 loss 2.4998 val 2.6529 4535 tok/s
+[seed0] clone_both step 1799 loss 2.4788 val 2.6229 4605 tok/s
+[seed0] clone_both step 1899 loss 2.5549 val 2.6049 4644 tok/s
+[seed0] clone_both step 1999 loss 2.4573 val 2.5844 4670 tok/s
+[seed0] clone_both step 2099 loss 2.389 val 2.5592 4684 tok/s
+[seed0] clone_both step 2199 loss 2.4585 val 2.5383 4692 tok/s
+[seed0] clone_both step 2299 loss 2.4186 val 2.5281 4691 tok/s
+[seed0] clone_both step 2399 loss 2.5241 val 2.5119 4701 tok/s
+[seed0] clone_both step 2499 loss 2.2909 val 2.4821 4712 tok/s
+[seed0] clone_both step 2599 loss 2.3525 val 2.4363 4724 tok/s
+[seed0] clone_both step 2699 loss 2.3519 val 2.3998 4728 tok/s
+[seed0] clone_both step 2799 loss 2.2272 val 2.3601 4729 tok/s
+[seed0] clone_both step 2899 loss 2.2186 val 2.3268 4728 tok/s
+[seed0] clone_both step 2999 loss 2.3056 val 2.3073 4722 tok/s
+== done seed0 clone_both  elapsed 44.0 min
+[seed1] dense_p1 step 0 loss 7.6235 val 7.6286 448 tok/s
+[seed1] dense_p1 step 99 loss 5.3904 val 5.416 4931 tok/s
+[seed1] dense_p1 step 199 loss 4.2686 val 4.2433 5221 tok/s
+== done seed0 dense_continue  elapsed 0.0 min
+== done seed0 moe_drop  elapsed 0.0 min
+== done seed0 clone_hard  elapsed 0.0 min
+== done seed0 clone_bias  elapsed 0.0 min
+== done seed0 clone_noise  elapsed 0.0 min
+== done seed0 clone_both  elapsed 0.0 min
+[seed1] dense_p1 step 0 loss 7.6235 val 7.6286 380 tok/s
+[seed1] dense_p1 step 99 loss 5.3904 val 5.416 4842 tok/s
+[seed1] dense_p1 step 199 loss 4.2686 val 4.2433 5213 tok/s
+[seed1] dense_p1 step 299 loss 3.8299 val 3.7806 5363 tok/s
+[seed1] dense_p1 step 399 loss 3.3369 val 3.4702 5420 tok/s
+[seed1] dense_p1 step 499 loss 3.3023 val 3.2476 5431 tok/s
+[seed1] dense_p1 step 599 loss 3.1568 val 3.1045 5439 tok/s
+[seed1] dense_p1 step 699 loss 2.974 val 2.9964 5449 tok/s
+[seed1] dense_p1 step 799 loss 2.8265 val 2.9258 5467 tok/s
+[seed1] dense_p1 step 899 loss 2.8391 val 2.851 5453 tok/s
+[seed1] dense_p1 step 999 loss 2.7955 val 2.8095 5439 tok/s
+[seed1] dense_p1 step 1099 loss 2.693 val 2.7608 5436 tok/s
+[seed1] dense_p1 step 1199 loss 2.6857 val 2.7293 5438 tok/s
+[seed1] dense_p1 step 1299 loss 2.6515 val 2.6958 5450 tok/s
+[seed1] dense_p1 step 1399 loss 2.5826 val 2.6577 5460 tok/s
+[seed1] dense_p1 step 1499 loss 2.549 val 2.6392 5472 tok/s
+[seed1] fidelity {'partition_all_experts_on': 2.6392, 'dense': 2.6392, 'drop_r_w2zero': 2.8677, 'drop_r_w2normal': 2.8989, 'drop_r0_subset_copy': 2.7169, 'clone': 2.7936}
+[seed1] dense_continue {'val_before': 2.639182358980179}
+[seed1] dense_continue step 1500 loss 2.5016 val 2.6392 481 tok/s
+[seed1] dense_continue step 1599 loss 2.5373 val 2.6123 5166 tok/s
+[seed1] dense_continue step 1699 loss 2.4773 val 2.5932 5444 tok/s
+[seed1] dense_continue step 1799 loss 2.432 val 2.5725 5519 tok/s
+[seed1] dense_continue step 1899 loss 2.4644 val 2.5568 5540 tok/s
+[seed1] dense_continue step 1999 loss 2.3917 val 2.5442 5568 tok/s
+[seed1] dense_continue step 2099 loss 2.5329 val 2.5232 5576 tok/s
+[seed1] dense_continue step 2199 loss 2.3767 val 2.5145 5592 tok/s
+[seed1] dense_continue step 2299 loss 2.4406 val 2.5045 5596 tok/s
+[seed1] dense_continue step 2399 loss 2.4834 val 2.4953 5611 tok/s
+== done seed0 dense_continue  elapsed 0.0 min
+== done seed0 moe_drop  elapsed 0.0 min
+== done seed0 clone_hard  elapsed 0.0 min
+== done seed0 clone_bias  elapsed 0.0 min
+== done seed0 clone_noise  elapsed 0.0 min
+== done seed0 clone_both  elapsed 0.0 min
+[seed1] dense_continue {'val_before': 2.639182358980179}
+[seed1] dense_continue step 1500 loss 2.5016 val 2.6392 361 tok/s
+[seed1] dense_continue step 1599 loss 2.5373 val 2.6123 4846 tok/s
+[seed1] dense_continue step 1699 loss 2.4773 val 2.5932 5252 tok/s
+[seed1] dense_continue step 1799 loss 2.432 val 2.5725 5410 tok/s
+[seed1] dense_continue step 1899 loss 2.4644 val 2.5568 5500 tok/s
+[seed1] dense_continue step 1999 loss 2.3917 val 2.5442 5576 tok/s
+[seed1] dense_continue step 2099 loss 2.5329 val 2.5232 5635 tok/s
+[seed1] dense_continue step 2199 loss 2.3767 val 2.5145 5683 tok/s
+[seed1] dense_continue step 2299 loss 2.4406 val 2.5045 5717 tok/s
+[seed1] dense_continue step 2399 loss 2.4834 val 2.4953 5736 tok/s
+[seed1] dense_continue step 2499 loss 2.3073 val 2.4556 5748 tok/s
+[seed1] dense_continue step 2599 loss 2.1655 val 2.4198 5740 tok/s
+[seed1] dense_continue step 2699 loss 2.3144 val 2.3813 5742 tok/s
+[seed1] dense_continue step 2799 loss 2.2794 val 2.3505 5750 tok/s
+[seed1] dense_continue step 2899 loss 2.2309 val 2.3138 5760 tok/s
+[seed1] dense_continue step 2999 loss 2.2075 val 2.2939 5766 tok/s
+== done seed1 dense_continue  elapsed 18.0 min
+[seed1] moe_drop {'val_before': 2.639182358980179, 'adam_states_transferred': 22, 'val_after_convert': 2.8773278832435607}
+[seed1] moe_drop step 1500 loss 2.7321 val 2.8304 443 tok/s
+[seed1] moe_drop step 1599 loss 2.595 val 2.6713 4558 tok/s
+[seed1] moe_drop step 1699 loss 2.534 val 2.6346 4853 tok/s
+== done seed0 dense_continue  elapsed 0.0 min
+== done seed0 moe_drop  elapsed 0.0 min
+== done seed0 clone_hard  elapsed 0.0 min
+== done seed0 clone_bias  elapsed 0.0 min
+== done seed0 clone_noise  elapsed 0.0 min
+== done seed0 clone_both  elapsed 0.0 min
+== done seed1 dense_continue  elapsed 0.0 min
+[seed1] moe_drop {'val_before': 2.639182358980179, 'adam_states_transferred': 22, 'val_after_convert': 2.8773278832435607}
+[seed1] moe_drop step 1500 loss 2.7321 val 2.8304 328 tok/s

@@ -1,0 +1,8 @@
+{
+ "partition_all_experts_on": 2.6392,
+ "dense": 2.6392,
+ "drop_r_w2zero": 2.8677,
+ "drop_r_w2normal": 2.8989,
+ "drop_r0_subset_copy": 2.7169,
+ "clone": 2.7936
+}

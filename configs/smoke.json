@@ -1,0 +1,51 @@
+{
+ "model": {
+  "vocab": 2048,
+  "d": 128,
+  "n_layer": 4,
+  "n_head": 4,
+  "n_kv": 2,
+  "seq": 128,
+  "ffn": 512,
+  "shared": 256,
+  "n_exp": 8,
+  "exp_w": 128,
+  "top_k": 2,
+  "route_scale": 1.0
+ },
+ "data": {
+  "source": "rows",
+  "n_train_stories": 3000,
+  "n_val_stories": 300,
+  "tok_train_stories": 3000
+ },
+ "train": {
+  "batch": 32,
+  "lr": 0.002,
+  "warmup": 10,
+  "p1": 40,
+  "p2": 40,
+  "decay_frac": 0.2,
+  "wd": 0.1,
+  "eval_every": 20,
+  "eval_batches": 4,
+  "gamma": 0.01,
+  "bias_every": 4,
+  "noise_T0": 0.05,
+  "noise_steps": 20,
+  "r": 0.5,
+  "bf16": false
+ },
+ "seeds": [
+  0,
+  1
+ ],
+ "arms": [
+  "dense_continue",
+  "moe_drop",
+  "clone_hard",
+  "clone_bias",
+  "clone_noise",
+  "clone_both"
+ ]
+}

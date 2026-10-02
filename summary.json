@@ -1,0 +1,316 @@
+{
+ "config": "cpu_tiny",
+ "seeds": [
+  0
+ ],
+ "device": "cpu",
+ "params_dense": [
+  1246336,
+  1246336
+ ],
+ "params_moe": [
+  2430080,
+  1250432
+ ],
+ "tokens_per_step": 4096,
+ "steps": [
+  1500,
+  1500
+ ],
+ "val_phase1_start": {
+  "mean": 7.6447,
+  "std": 0.0,
+  "per_seed": [
+   7.6447
+  ]
+ },
+ "val_phase1_end": {
+  "mean": 2.6792,
+  "std": 0.0,
+  "per_seed": [
+   2.6792
+  ]
+ },
+ "fidelity": {
+  "partition_all_experts_on": {
+   "mean": 2.6792,
+   "std": 0.0,
+   "per_seed": [
+    2.6792
+   ]
+  },
+  "dense": {
+   "mean": 2.6792,
+   "std": 0.0,
+   "per_seed": [
+    2.6792
+   ]
+  },
+  "drop_r_w2zero": {
+   "mean": 2.9118,
+   "std": 0.0,
+   "per_seed": [
+    2.9118
+   ]
+  },
+  "drop_r_w2normal": {
+   "mean": 2.9212,
+   "std": 0.0,
+   "per_seed": [
+    2.9212
+   ]
+  },
+  "drop_r0_subset_copy": {
+   "mean": 2.7517,
+   "std": 0.0,
+   "per_seed": [
+    2.7517
+   ]
+  },
+  "clone": {
+   "mean": 2.8429,
+   "std": 0.0,
+   "per_seed": [
+    2.8429
+   ]
+  }
+ },
+ "wall_min_total": 156.4106,
+ "arms": {
+  "dense_continue": {
+   "val_first": {
+    "mean": 2.6749,
+    "std": 0.0,
+    "per_seed": [
+     2.6749
+    ]
+   },
+   "val_final": {
+    "mean": 2.3184,
+    "std": 0.0,
+    "per_seed": [
+     2.3184
+    ]
+   },
+   "steps_to_regain": [
+    0
+   ],
+   "tok_per_s": {
+    "mean": 5569.0,
+    "std": 0.0,
+    "per_seed": [
+     5569.0
+    ]
+   }
+  },
+  "moe_drop": {
+   "val_first": {
+    "mean": 2.8685,
+    "std": 0.0,
+    "per_seed": [
+     2.8685
+    ]
+   },
+   "val_final": {
+    "mean": 2.3124,
+    "std": 0.0,
+    "per_seed": [
+     2.3124
+    ]
+   },
+   "steps_to_regain": [
+    199
+   ],
+   "tok_per_s": {
+    "mean": 3534.0,
+    "std": 0.0,
+    "per_seed": [
+     3534.0
+    ]
+   },
+   "final_maxvio_mean": {
+    "mean": 0.0128,
+    "std": 0.0,
+    "per_seed": [
+     0.0128
+    ]
+   },
+   "final_dead_total": [
+    0
+   ],
+   "max_dead_any_eval": [
+    0
+   ],
+   "n_experts_total": 32
+  },
+  "clone_hard": {
+   "val_first": {
+    "mean": 2.7974,
+    "std": 0.0,
+    "per_seed": [
+     2.7974
+    ]
+   },
+   "val_final": {
+    "mean": 2.3221,
+    "std": 0.0,
+    "per_seed": [
+     2.3221
+    ]
+   },
+   "steps_to_regain": [
+    99
+   ],
+   "tok_per_s": {
+    "mean": 4940.0,
+    "std": 0.0,
+    "per_seed": [
+     4940.0
+    ]
+   },
+   "final_maxvio_mean": {
+    "mean": 2.6048,
+    "std": 0.0,
+    "per_seed": [
+     2.6048
+    ]
+   },
+   "final_dead_total": [
+    17
+   ],
+   "max_dead_any_eval": [
+    18
+   ],
+   "n_experts_total": 32
+  },
+  "clone_bias": {
+   "val_first": {
+    "mean": 2.7974,
+    "std": 0.0,
+    "per_seed": [
+     2.7974
+    ]
+   },
+   "val_final": {
+    "mean": 2.3062,
+    "std": 0.0,
+    "per_seed": [
+     2.3062
+    ]
+   },
+   "steps_to_regain": [
+    99
+   ],
+   "tok_per_s": {
+    "mean": 4847.0,
+    "std": 0.0,
+    "per_seed": [
+     4847.0
+    ]
+   },
+   "final_maxvio_mean": {
+    "mean": 0.0168,
+    "std": 0.0,
+    "per_seed": [
+     0.0168
+    ]
+   },
+   "final_dead_total": [
+    0
+   ],
+   "max_dead_any_eval": [
+    0
+   ],
+   "n_experts_total": 32
+  },
+  "clone_noise": {
+   "val_first": {
+    "mean": 2.7966,
+    "std": 0.0,
+    "per_seed": [
+     2.7966
+    ]
+   },
+   "val_final": {
+    "mean": 2.3216,
+    "std": 0.0,
+    "per_seed": [
+     2.3216
+    ]
+   },
+   "steps_to_regain": [
+    99
+   ],
+   "tok_per_s": {
+    "mean": 4745.0,
+    "std": 0.0,
+    "per_seed": [
+     4745.0
+    ]
+   },
+   "final_maxvio_mean": {
+    "mean": 2.4497,
+    "std": 0.0,
+    "per_seed": [
+     2.4497
+    ]
+   },
+   "final_dead_total": [
+    15
+   ],
+   "max_dead_any_eval": [
+    16
+   ],
+   "n_experts_total": 32
+  },
+  "clone_both": {
+   "val_first": {
+    "mean": 2.7966,
+    "std": 0.0,
+    "per_seed": [
+     2.7966
+    ]
+   },
+   "val_final": {
+    "mean": 2.3073,
+    "std": 0.0,
+    "per_seed": [
+     2.3073
+    ]
+   },
+   "steps_to_regain": [
+    99
+   ],
+   "tok_per_s": {
+    "mean": 4722.0,
+    "std": 0.0,
+    "per_seed": [
+     4722.0
+    ]
+   },
+   "final_maxvio_mean": {
+    "mean": 0.022,
+    "std": 0.0,
+    "per_seed": [
+     0.022
+    ]
+   },
+   "final_dead_total": [
+    0
+   ],
+   "max_dead_any_eval": [
+    0
+   ],
+   "n_experts_total": 32
+  }
+ },
+ "moe_drop_minus_dense": {
+  "mean": -0.006,
+  "std": 0.0,
+  "per_seed": [
+   -0.006
+  ],
+  "seeds_moe_better": 1
+ },
+ "moe_drop_stays_below_dense_from_step": 2599
+}
